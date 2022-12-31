@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/yellow">
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_30sdp"
+        app:srcCompat="@drawable/food_nom" />
+    <ImageView
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/benguerir_splach" />
+
+    <ImageView
+        android:layout_width="334dp"
+        android:layout_height="281dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/image_back" />
+    <ProgressBar
+        android:layout_marginTop="@dimen/_50sdp"
+        android:id="@+id/progressbar"
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/custom_progresbar"
+        style="?android:attr/progressBarStyleHorizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/archivo_black"
+        android:text="Delivery Appliaction"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_5sdp"/>
+    
+
+
+</LinearLayout>

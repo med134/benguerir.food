@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">BenGuerir Food</string>
+    <string name="title_activity_services">Services</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_services">SERVICES</string>
+    <string name="menu_location">LOCATION</string>
+    <string name="menu_compte">COMPTE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="listServices">
+        <item>Restaurants</item>
+        <item>Supermarché</item>
+        <item>Boulangier</item>
+        <item>Autre Services</item>
+        <item>Restaurants</item>
+    </string-array>
+    <string-array name="Discription">
+        <item>Vos plats préférés,prés de chez vous..</item>
+        <item>Tout votre supermarch" est ses produit frais</item>
+        <item>Pains,viennoiseries et autres goumandies</item>
+        <item>Parapharmacies,Transport,Courcier,et plus encore..</item>
+    </string-array>
+    <string name="title_activity_restaurant">Restaurant</string>
+
+
+    <string-array name="listRestaurants">
+        <item>Alpha</item>
+        <item>Golden Plam</item>
+        <item>Noisette</item>
+        <item>Snack Brothres</item>
+        <item>Bella Roma</item>
+        <item>Coin Gourmand</item>
+        <item>Mac Sola</item>
+        <item>Snack Swidi</item>
+    </string-array>
+
+    <string-array name="menu_Rstaurants">
+        <item>Modern Cuisine: Pizza, Tacos, Salades, Panini...</item>
+        <item>Pizza, Sandwitch, Tacos, Salades, Panini...</item>
+        <item>Pizza, Sandwitch, Tacos, Salades, Panini...</item>
+        <item>Pizza, Tacos, Salades, Panini, Émincé...</item>
+        <item>Italien, Pizza, Sandwitch, Tacos, Panini...</item>
+        <item>Moderen Cuisine: Pizza, Tacos, Burger...</item>
+        <item>Pizza, Sandwitch, Tacos, Panini...</item>
+        <item>Pizza, Sandwitch, Tacos, Panini, salades...</item>
+
+    </string-array>
+    <string name="title_activity_alpha_restaurans">AlphaRestaurans</string>
+    <string name="title_activity_alpha">Alpha_Activity</string>
+    <string name="title"><b><i>Menu</i></b></string>
+    <string name="title_activity_confirmer_comanedes">Confirmer_Comanedes</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string-array name="type_courir">
+        <item>Carton</item>
+        <item>Dossier</item>
+        <item>Matiriel</item>
+        <item>Mobilier</item>
+        <item>Boîtes</item>
+    </string-array>
+    <string name="key_map">AIzaSyA7NfbvKrUC-rXXY-p-hYUTAODdX4upivE</string>
+    <string name="google_maps_key">AIzaSyA7NfbvKrUC-rXXY-p-hYUTAODdX4upivE</string>
+    <string-array name="list">
+        <item>hay lwarda,benguerir</item>
+        <item>hay riad,benguerir</item>
+        <item>hay takkadom,benguerir</item>
+        <item>hay amal,benguerir</item>
+        <item>hay farah,benguerir</item>
+        <item>hay nour,benguerir</item>
+        <item>hay ifquia,benguerir</item>
+        <item>hay lmajd,benguerir</item>
+        <item>hay lwarda</item>
+        <item>hay hay inbiaat,benguerir</item>
+        <item>hay lfadl</item>
+        <item>hay ljadid,benguerir</item>
+        <item>hay zawya</item>
+    </string-array>
+</resources>

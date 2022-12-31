@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".services.ui.restaurants.list_restaurants.Food">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+      <androidx.constraintlayout.utils.widget.ImageFilterView
+          android:id="@+id/imgPizza"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/_8sdp"
+          android:src="@drawable/pizzacard" />
+      <androidx.constraintlayout.utils.widget.ImageFilterView
+          android:id="@+id/imgPanini"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/_2sdp"
+      android:src="@drawable/cardpanini" />
+      <androidx.constraintlayout.utils.widget.ImageFilterView
+          android:id="@+id/imgDeserts"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/_2sdp"
+          android:src="@drawable/carddesserts" />
+      <androidx.constraintlayout.utils.widget.ImageFilterView
+          android:id="@+id/imgBurger"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/_2sdp"
+          android:src="@drawable/cardburger" />
+      <androidx.constraintlayout.utils.widget.ImageFilterView
+          android:id="@+id/imgTacos"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/_2sdp"
+          android:src="@drawable/tacoscard" />
+      <androidx.constraintlayout.utils.widget.ImageFilterView
+          android:id="@+id/imgSalades"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/_2sdp"
+          android:src="@drawable/saladescard" />
+  </LinearLayout>
+ </androidx.core.widget.NestedScrollView>

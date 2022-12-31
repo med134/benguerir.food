@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.benguerirfood">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label=""
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BenGuerirFood">
+        <activity
+            android:name=".services.ui.complaint.Formul_Complaint"
+            android:exported="false" />
+        <activity
+            android:name=".services.Services"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.BenGuerirFood.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".services.ui.autre_services.taxi.Taxi"
+            />
+        <activity
+            android:name=".services.ui.autre_services.courcier.Courcier"
+            android:parentActivityName=".services.ui.autre_services.list_services.ListServices" />
+        <activity
+            android:name=".services.ui.autre_services.pharmacy.Pharmacy"
+            android:parentActivityName=".services.ui.autre_services.list_services.ListServices" />
+        <activity android:name=".services.ui.autre_services.taxi.TaxiMaps" />
+        <activity android:name=".services.ui.restaurants.Loading" />
+        <activity android:name=".services.ui.autre_services.pharmacy.Activity_Soins" />
+        <activity android:name=".services.ui.autre_services.list_services.ListServices"
+            android:parentActivityName=".services.Services"/>
+        <activity
+            android:name=".services.ui.restaurants.confirmer_comendes.Confirme_Boulangie"
+            android:parentActivityName=".services.ui.boulangier.Boulangier" />
+        <activity android:name=".services.ui.restaurants.list_restaurants.List_restaurants" />
+        <activity android:name=".services.ui.boulangier.menuIteams.menuBriouat.MenuBriouat" />
+        <activity android:name=".services.ui.boulangier.menuIteams.menuPatssrie.MenuPatissrie" />
+        <activity android:name=".services.ui.boulangier.Boulangier" />
+        <activity android:name=".services.ui.restaurants.confirmer_comendes.Add_Panier" />
+        <activity android:name=".services.ui.boulangier.menuIteams.menuGateux.MenuGateaux" />
+        <activity android:name=".services.ui.restaurants.confirmer_comendes.Confirmer_Comendes"
+            android:parentActivityName=".services.ui.restaurants.list_restaurants.List_restaurants"/>
+        <activity android:name=".services.ui.boulangier.menuIteams.menuPain.PainMenu" />
+        <activity android:name=".services.ui.boulangier.menuIteams.menuCroisaants.MenuCroissants" />
+        <activity android:name=".services.ui.restaurants.Resturants"
+            android:parentActivityName=".services.Services"/>
+        <activity android:name=".services.ui.restaurants.menuDesserts.MenuDesserts" />
+        <activity android:name=".services.ui.restaurants.menuPizza.PizzaMenu" />
+        <activity android:name=".services.ui.restaurants.menuSlades.SaladMenu" />
+        <activity android:name=".services.ui.restaurants.menuPanini.MenuPanini" />
+        <activity android:name=".services.ui.restaurants.menuBerger.BurgerMenu" />
+        <activity android:name=".services.ui.restaurants.menuTacos.TacosMenu" />
+        <activity android:name=".localisation.Locality" />
+        <activity android:name=".localisation.Get_Location" />
+        <activity android:name=".services.ui.info.Conditions_Vente" />
+        <activity android:name=".services.ui.info.Confidentialite" />
+        <activity android:name=".services.ui.info.Contact" />
+        <activity android:name=".services.ui.autre_services.taxi.GetTaxi"/>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA7NfbvKrUC-rXXY-p-hYUTAODdX4upivE" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

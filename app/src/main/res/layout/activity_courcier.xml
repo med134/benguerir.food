@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".services.ui.autre_services.pharmacy.Pharmacy"
+    >
+    <include
+        layout="@layout/action_bar"
+        />
+     <ScrollView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@android:color/transparent"
+             android:orientation="vertical">
+
+             <androidx.cardview.widget.CardView
+                 android:layout_width="@dimen/_280sdp"
+                 android:layout_height="58sp"
+                 android:layout_gravity="center_horizontal"
+                 android:layout_marginTop="14sp"
+                 app:cardBackgroundColor="#F2F3F4"
+                 app:cardCornerRadius="15sp">
+
+                 <TextView
+                     android:layout_width="@dimen/_290sdp"
+                     android:layout_height="match_parent"
+                     android:drawableStart="@drawable/ic_baseline_auto_fix_high_24"
+                     android:gravity="center"
+                     android:layout_gravity="center"
+                     android:padding="10sp"
+                     android:text="Si votre commande nécessite d'achter des produits utilisez Magic"
+                     android:textColor="#262527" />
+             </androidx.cardview.widget.CardView>
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="24sp"
+                 android:orientation="vertical">
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginStart="9sp"
+                     android:layout_marginTop="10sp"
+                     android:text="Votre Commande"
+                     android:textColor="@color/black"
+                     android:textSize="21sp"
+                     android:textStyle="bold" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginStart="9sp"
+                     android:layout_marginTop="10sp"
+                     android:text="selectionner votre type de courcier :"
+                     android:textColor="@color/black"
+                     />
+
+                 <Spinner
+                     android:layout_marginTop="@dimen/_10sdp"
+                     android:id="@+id/spinner"
+                     android:background="@drawable/custom_spinner"
+                     android:layout_width="@dimen/_280sdp"
+                     android:paddingStart="@dimen/_15sdp"
+                     android:layout_height="@dimen/_43sdp"
+                     android:layout_gravity="center"></Spinner>
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_marginTop="@dimen/_15sdp"
+                 android:layout_width="@dimen/_270sdp"
+                 android:orientation="vertical"
+                 android:layout_height="@dimen/_160sdp"
+                 android:layout_gravity="center">
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Ajouter photo de votre coucier :"
+                     android:textSize="@dimen/_13sdp"
+                     android:textStyle="bold"
+                     android:layout_marginBottom="@dimen/_15sdp"
+                     android:textColor="@color/black"/>
+
+                 <ImageView
+                     android:id="@+id/imagPackeg"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:background="#F4F6F7" />
+                 <com.google.android.material.floatingactionbutton.FloatingActionButton
+                 android:layout_width="wrap_content"
+                     android:id="@+id/addPic"
+                 android:layout_height="wrap_content"
+                     android:layout_marginTop="-60sp"
+                     android:layout_marginStart="@dimen/_218sdp"
+                 android:clickable="true"
+                     android:focusable="true"
+                 android:src="@drawable/add"
+                     android:tint="#2C2A21"
+                 app:layout_anchorGravity="center"
+                 android:backgroundTint="@color/white"
+                 />
+
+
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="20sp"
+                 android:orientation="vertical">
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:padding="10sp"
+                     android:text="Détails de Livraison"
+                     android:textColor="@color/black"
+                     android:textSize="21sp"
+                     android:textStyle="bold" />
+
+                 <ImageView
+                     android:id="@+id/imageCourir"
+                     android:layout_width="@dimen/_270sdp"
+                     android:layout_gravity="center"
+                     android:layout_height="150sp"
+                     android:src="@drawable/courir_map"
+                      />
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical">
+                 <EditText
+                     android:id="@+id/depuid"
+                     android:layout_width="@dimen/_290sdp"
+                     android:layout_height="55sp"
+                     android:layout_gravity="center"
+                     android:layout_marginTop="20sp"
+                     android:background="@android:drawable/editbox_background"
+                     android:drawableStart="@drawable/map"
+                     android:gravity="center"
+                     android:hint="Depuis Où ?  "
+                     android:padding="10sp" />
+
+                 <EditText
+                     android:id="@+id/versOu"
+                     android:layout_width="@dimen/_290sdp"
+                     android:layout_height="55sp"
+                     android:layout_gravity="center"
+                     android:layout_marginTop="10sp"
+                     android:background="@android:drawable/editbox_background"
+                     android:drawableStart="@drawable/flag"
+                     android:gravity="center"
+                     android:hint="Vers Où ?"
+                     android:padding="10sp" />
+
+                 <EditText
+                     android:id="@+id/num"
+                     android:layout_width="@dimen/_290sdp"
+                     android:layout_height="55sp"
+                     android:layout_gravity="center"
+                     android:layout_marginTop="10sp"
+                     android:background="@android:drawable/editbox_background"
+                     android:drawableStart="@drawable/phonix"
+                     android:gravity="center"
+                     android:hint="Numéro de Télephone"
+                     android:inputType="phone"
+                     android:padding="10sp" />
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="@dimen/_290sdp"
+                 android:layout_gravity="center"
+                 android:layout_marginTop="@dimen/_12sdp"
+                 android:background="@drawable/grey_btn"
+                 android:orientation="vertical"
+                 android:layout_height="@dimen/_140sdp">
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Details De Payments"
+                      android:textStyle="bold"
+                      android:padding="20sp"
+                      android:textSize="20sp"
+                      android:textColor="@color/black"/>
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:paddingStart="@dimen/_8sdp"
+                     android:text="Prix estimé de la livraison"
+                     android:layout_marginStart="@dimen/_9sdp"
+                     android:textSize="14sp"
+                     android:textColor="@color/black"/>
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="MAD"
+                     android:textStyle="bold"
+                     android:textColor="@color/black"
+                     android:textSize="18sp"
+                     android:layout_marginStart="@dimen/_248sdp"
+                     android:layout_marginTop="-22sp"
+                     />
+                 <TextView
+                     android:id="@+id/textPrice"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textSize="18sp"
+                     android:textStyle="bold"
+                     android:layout_marginTop="-25sp"
+                     android:textColor="@color/black"
+                     android:layout_marginStart="@dimen/_228sdp"
+                     android:text="10"/>
+                 <Button
+                     android:id="@+id/btnConfirmer"
+                     android:layout_marginTop="@dimen/_15sdp"
+                     android:layout_width="@dimen/_250sdp"
+                     android:textColor="@color/white"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:textAllCaps="false"
+                     android:background="@drawable/styl_btn"
+                     android:text="Valider Ma Commande"/>
+             </LinearLayout>
+         </LinearLayout>
+     </ScrollView>
+
+
+</LinearLayout>

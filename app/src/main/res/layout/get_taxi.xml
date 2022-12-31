@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="323dp"
+        android:layout_gravity="center"
+        android:src="@drawable/get_taxi" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/text_taxi_name"
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_16sdp"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:backgroundTint="#0067F9"
+            android:paddingStart="@dimen/_20sdp"
+            android:hint="Full Name"/>
+        <EditText
+            android:id="@+id/numbre_phone_taxi"
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textSize="@dimen/_16sdp"
+            android:textColor="@color/black"
+            android:backgroundTint="#0067F9"
+            android:inputType="numberDecimal"
+            android:paddingStart="@dimen/_20sdp"
+            android:hint="Numbre Phone"/>
+        <Button
+            android:id="@+id/btn_confirmation_taxi"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:background="@drawable/style_btn_taxi"
+            android:text="Confirmer"
+            android:textAllCaps="false"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

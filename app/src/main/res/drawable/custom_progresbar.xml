@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/back_pro">
+    <shape>
+        <solid android:color="@color/white"/>
+        <corners android:radius="@dimen/_8sdp"/>
+    </shape>
+</item>
+    <item android:id="@+id/progress">
+        <clip>
+            <layer-list>
+                <item android:bottom="0dp"
+                    android:left="0dp"
+                    android:right="0dp"
+                    android:top="0dp">
+                    <shape>
+                        <gradient
+                            android:angle="90"
+                            android:startColor="@color/colorWarning"
+                            android:centerColor="@color/white"
+                            android:endColor="@color/white"/>
+                        <corners android:radius="2dp"/>
+                    </shape>
+                </item>
+
+            </layer-list>
+        </clip>
+    </item>
+</layer-list>

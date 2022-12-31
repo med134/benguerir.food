@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffa632"
+    app:title="Ajouter les détails de l'adresse"
+    app:titleTextColor="@color/white"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:id="@+id/toolbar"
+   >
+
+
+</androidx.appcompat.widget.Toolbar>

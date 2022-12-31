@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".services.ui.info.Confidentialite">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confidentialite"
+        android:gravity="center"
+        android:textSize="@dimen/_19sdp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:id="@+id/textConfidilité"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/confidelite_app"
+                android:textSize="@dimen/_12sdp"/>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

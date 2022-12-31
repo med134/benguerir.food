@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="SERVICES">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_service"
+                    android:icon="@drawable/list_24"
+                    android:title="@string/menu_services" />
+                <item
+                    android:id="@+id/nav_location"
+                    android:icon="@drawable/location_24"
+                    android:title="@string/menu_location" />
+                <item
+                    android:id="@+id/nav_compte"
+                    android:icon="@drawable/compte_24"
+                    android:title="@string/menu_compte"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="CONTACT">
+        <menu>
+            <group>
+                <item
+                    android:title="info"
+                    android:id="@+id/navChat"
+                    android:icon="@drawable/info_24"/>
+                <item android:title="share"
+                    android:icon="@drawable/share_icon"
+                    android:id="@+id/nav_char"/>
+                <item android:title="complaint"
+                    android:id="@+id/nav_complaint"
+                    android:icon="@drawable/complaint"/>
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

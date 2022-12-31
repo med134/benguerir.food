@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BenGuerirFood" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#ffa632</item>
+        <item name="colorPrimaryDark">#ffa632</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="colorOnSecondary">#0067F9</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.BenGuerirFood.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+    <style name="Theme.BenGuerirFood.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+    <style name="Theme.BenGuerirFood.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="roundedImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">15dp</item>
+    </style>
+    <style name="Theme.BenGuerirFood.PopupOverlay1" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="roundedImageView1" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">60dp</item>
+    </style>
+
+    <style name="Theme.BenGuerirFood.PopupOverlay3" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="roundedImageViewplat" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">25dp</item>
+    </style>
+    <style name="Theme.Caisse" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="roundImagePanier" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/_8sdp</item>
+    </style>
+    <style name="radioButton" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorAccent">@color/yellow</item>
+    </style>
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".services.ui.compte.Compte">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="106dp"
+            android:layout_height="87dp"
+            android:layout_marginStart="135dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Saisissez votre adresse E-mail"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/textEmail"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="center"
+            android:backgroundTint="#ffa632"
+            android:hint="Adresse email.."
+            android:singleLine="true" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="center"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/texPassword"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:backgroundTint="#ffa632"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnConnect"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/styl_btn"
+            android:text="Connectez"
+            android:textAllCaps="false"
+            android:layout_marginTop="@dimen/_30sdp"/>
+
+        <Button
+            android:id="@+id/btnconectFacebook"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/styl_btn"
+            android:backgroundTint="#0375D3"
+            android:fontFamily="@font/changa_one"
+            android:text="Connectez with Facebook"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

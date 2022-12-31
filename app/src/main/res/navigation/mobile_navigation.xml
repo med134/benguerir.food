@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_service">
+
+    <fragment
+        android:id="@+id/nav_service"
+        android:name="com.example.benguerirfood.services.ui.services.List_services"
+        android:label="@string/menu_services"
+        tools:layout="@layout/fragment_services" />
+
+    <fragment
+        android:id="@+id/nav_location"
+        android:name="com.example.benguerirfood.services.ui.location.Location"
+        android:label="@string/menu_location"
+        tools:layout="@layout/fragment_location" />
+
+    <fragment
+        android:id="@+id/nav_compte"
+        android:name="com.example.benguerirfood.services.ui.compte.Compte"
+        android:label="@string/menu_compte"
+        tools:layout="@layout/fragment_compte" />
+    <fragment
+        android:id="@+id/navChat"
+        android:name="com.example.benguerirfood.services.ui.info.Info"
+        android:label="info"
+        tools:layout="@layout/fragment_info"/>
+    <fragment
+        android:id="@+id/nav_char"
+        android:name="com.example.benguerirfood.services.ui.share.Share"
+        android:label="Share"
+        tools:layout="@layout/activity_services"/>
+    <fragment
+        android:id="@+id/nav_complaint"
+        android:name="com.example.benguerirfood.services.ui.complaint.Complaint"
+        android:label="Complaint"
+        tools:layout="@layout/fragment_complaint"/>
+
+
+</navigation>
